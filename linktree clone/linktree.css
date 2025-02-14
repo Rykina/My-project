@@ -1,0 +1,75 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: 'Darker Grotesque', serif;
+  position: relative;
+  background-image: url(wp5306638-anime-pc-wallpapers.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+section {
+  display: grid;
+  place-items: center;
+  position: absolute;
+  inset: 0;
+}
+
+section main {
+  padding: 100px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  max-width: 600px;
+  justify-content: center;
+  align-items: center;
+}
+
+section main img {
+  width: 100px;
+  border-radius: 50%;
+  aspect-ratio: 1;
+  box-shadow: 0 0 5px 1px rgba(0, 128, 0, 0.854);
+}
+
+section main h2 {
+  font-weight: 700;
+  color: aliceblue;
+}
+
+section main a {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  border: 1.5px solid white;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  gap: 20px;
+  transition: 1s;
+}
+
+section main a:hover {
+  background-color: white;
+  color: #333;
+}
+
+section main p {
+  color: white;
+  text-align: center;
+}
+
+section footer {
+  position: absolute;
+  bottom: 10px;
+  color: white;
+  font-size: 0.8rem;
+}
